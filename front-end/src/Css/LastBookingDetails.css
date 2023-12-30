@@ -1,0 +1,69 @@
+.last_booking_details_container {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 5px solid  black;
+  background-color: rgb(252, 250, 250);
+  color:#0c1d18;
+
+  box-shadow: 
+  0 0 0 5px #DDAF94,      /* First "border"  */
+  0 0 0 10px black,    /* Second "border"  */
+  0 0 0 15px #DDAF94;   /* Third "border" */
+
+}
+
+.last_booking_details_container_main{
+  display: flex;
+  flex-direction: column;
+}
+.last_booking_details_header {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.seats_container {
+  margin-bottom: 10px;
+}
+
+.seats_header {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.seats_container .seats {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.seat_value {
+  width: 60px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #DDAF94;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.slot,
+.movie {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.slot span,
+.movie span {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+
+
+
+.last_booking_details_container .no_previous_booking_msg {
+  font-size: 15px;
+}
