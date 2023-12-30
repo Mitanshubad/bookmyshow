@@ -7,8 +7,9 @@ require("dotenv").config();
 
 // Set up MongoDB URI based on environment
 const mongoURI = process.env.HOST_ENV === "production"
-  ? process.env.MONGODBURI
+  ? "mongodb+srv://chaitanyanaik80:emQf8mgrhd9JkuDE@cluster0.mtsgzsa.mongodb.net/"
   : "mongodb://localhost:27017/bookMovie";
+
 
 // Function to establish a connection with the database
 const connectDB = () => {
