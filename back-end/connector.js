@@ -6,9 +6,9 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 
 // Set up MongoDB URI based on environment
-const mongoURI = process.env.HOST_ENV === "production"
-  ? "mongodb+srv://chaitanyanaik80:emQf8mgrhd9JkuDE@cluster0.mtsgzsa.mongodb.net/"
-  : "mongodb://localhost:27017/bookMovie";
+const uri = process.env.HOST_ENV === 'production'
+  ? 'mongodb+srv://chaitanyanaik80:emQf8mgrhd9JkuDE@ac-i0digse-shard-00-00.mtsgzsa.mongodb.net/test?authSource=admin&replicaSet=atlas-o80nzf-shard-0&ssl=true'
+  : 'mongodb://localhost:27017/bookMovie';
 
 
 // Function to establish a connection with the database
